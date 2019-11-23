@@ -1,3 +1,5 @@
+# module Mathematics
+
 export ℕ, ℤ, ℚ, 𝕀, ℝ, ℂ
 
 abstract type ℂ end
@@ -15,3 +17,5 @@ import Base: ∈
 ∈(::Union{Real, Irrational}, ::Type{𝕀}) = true
 ∈(::Union{Rational, Real, Irrational}, ::Type{ℝ}) = true
 ∈(::Complex, ::Type{ℂ}) = true
+
+# module Mathematics
